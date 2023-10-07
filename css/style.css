@@ -73,15 +73,17 @@
 	width: 100%;
 	max-width: 400px;
 	margin: 30px auto 15px auto;
-	background: rgba(255,255,255,1.5);
+	background: rgba(255,255,255,.7);
 	padding: 20px 25px;
 	border-radius: 8px;
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
 }
 
 .buttons-container .btn {
 	width: 100%;
-	padding:10px 16px;
-	background: rgba(255, 255, 255, .7);
+	padding:10px 16px; 
+	background: linear-gradient(to bottom, #3b9dff, #007fff);
 	-webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(10px);
 }
